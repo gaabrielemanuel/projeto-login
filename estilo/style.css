@@ -1,9 +1,94 @@
 @charset "UTF-8";
 
-/* 
-    Paleta de cores
-    #ade1e5
-    #79c7c5
-    #99d19c
-    #73ab84
-*/
+:root {
+    --cor1: #d5f4f7;
+    --cor2: #79c7c5;
+    --cor3: #99d19c;
+    --cor4: #235C61;
+    --cor5: #245c81c7;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient( to bottom , var(--cor4), var(--cor2), var(--cor1));
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100%vw;
+}
+
+section#login {
+    background-color: white;
+    width: 250px;
+    height: 515px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.623);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+
+div#imagem {
+   display: block;
+   background: var(--cor4) url(../imagens/cidade-pq.jpg) no-repeat;
+   height: 200px;
+   background-position: left bottom;
+   background-size: cover;
+   border-radius: 20px 20px 0px 0px;
+}
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    padding: 4px;
+    font-size: 0.8em;
+    margin: 2px;
+}
+
+div.campo {
+    background-color: var(--cor2);
+    border: 2px solid var(--cor5);
+    display: block;
+    width: 97%;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+div.campo > span {
+    color: white;   
+}
+div.campo > input{
+    background-color: var(--cor1);
+    font-size: 1em;
+    width: 210px;
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+div.campo > input:focus-within {
+    background-color: white;
+    border: none;
+}
