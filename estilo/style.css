@@ -66,17 +66,18 @@ div.campo {
     border: 2px solid var(--cor5);
     display: block;
     width: 97%;
-    height: 40px;
+    height: 45px;
     border-radius: 8px;
-    margin: 5px;
+    margin: 0px;
 }
 
 div.campo > label {
     display: none;
 }
 
-div.campo > span {
+div.campo > i{
     color: white;   
+    padding-top: 4px;
 }
 div.campo > input{
     background-color: var(--cor1);
