@@ -47,7 +47,7 @@ div#imagem {
    display: block;
    background: var(--cor4) url(../imagens/img-login.jpg) no-repeat;
    height: 200px;
-   background-position: right center;
+   background-position: center bottom;
    background-size: cover;
    border-radius: 20px 20px 0px 0px;
 }

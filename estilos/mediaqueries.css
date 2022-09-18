@@ -5,6 +5,7 @@
         background-image: url(../imagens/fundo-r.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: right center;
     }
     section#login {
         width: 80vw;
