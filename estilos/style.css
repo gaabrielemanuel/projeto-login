@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+
 :root {
     --cor1: #d5f4f7;
     --cor2: #79c7c5;
@@ -9,7 +11,7 @@
 }
 
 * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+    font-family: 'Contrail One', cursive;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -30,8 +32,15 @@ main {
     width: 100vw;
 }
 
+h1 {
+    color: white;
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 section#login {
-    background-color: white;
+    background-color: rgba(0, 24, 24, 0.534);
     width: 250px;
     height: 515px;
     border-radius: 20px;
@@ -42,6 +51,8 @@ section#login {
     transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    text-align: justify;
+    
 }
 
 div#imagem {
@@ -64,7 +75,8 @@ div#formulario > h1{
 div#formulario > p {
     padding:5px 10px 0px 10px;
     font-size: 0.8em;
-    
+    color: white;
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
 }
 
 div.campo {
