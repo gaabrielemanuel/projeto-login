@@ -16,7 +16,9 @@
 }
 
 body {
-    background-image: linear-gradient( to bottom , var(--cor4), var(--cor2), var(--cor1));
+    background-image: url(../imagens/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
 }
@@ -43,9 +45,9 @@ section#login {
 
 div#imagem {
    display: block;
-   background: var(--cor4) url(../imagens/cidade-pq.jpg) no-repeat;
+   background: var(--cor4) url(../imagens/img-login.jpg) no-repeat;
    height: 200px;
-   background-position: left bottom;
+   background-position: right center;
    background-size: cover;
    border-radius: 20px 20px 0px 0px;
 }
